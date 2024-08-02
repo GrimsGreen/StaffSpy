@@ -21,8 +21,8 @@ _Python version >= [3.10](https://www.python.org/downloads/release/python-3100/)
 ### Usage
 
 ```python
-from staffspy import LinkedInAccount, SolverType
 from pathlib import Path
+from staffspy import LinkedInAccount, SolverType
 
 session_file = Path(__file__).resolve().parent / "session.pkl"
 account = LinkedInAccount(
